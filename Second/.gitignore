@@ -1,5 +1,6 @@
-/migrations
+migrations
 db.sqlite3
 /venv
 /static
 .DS_Store
+__pycache__
