@@ -1,0 +1,11 @@
+{% load static %}
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+<link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+<h1>Welcome to Rldud's Django Practice Site</h1>
+<hr>
+
+<p><a href="{% url 'index' %}">If you Click this, You can go to List of Question.</a></p>
