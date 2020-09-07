@@ -37,14 +37,14 @@ def vote(request, pk):
         selected_choice.save()
         return HttpResponseRedirect(reverse('results', args=(question.id,)))
 
-def new_question(request):
-    if request.method == "POST":
-        form = QuestionForm(request.POST)
-        if form.is_valid():
-            question = form.save(commit=False)
-            question.pub_date = timezone.now()
-            question.save()
-            return redirect('detail', pk=question.pk)
-    else:
-        form = QuestionForm()
-    return render(request, 'polls_2/new.html', {'form': form})
+# def new_question(request):
+#     if request.method == "POST":
+#         form = QuestionForm(request.POST)
+#         if form.is_valid():
+#             question = form.save(commit=False)
+#             question.pub_date = timezone.now()
+#             question.save()
+#             return redirect('detail', pk=question.pk)
+#     else:
+#         form = QuestionForm()
+#     return render(request, 'polls_2/new.html', {'form': form})
