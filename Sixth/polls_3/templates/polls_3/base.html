@@ -9,11 +9,12 @@
         <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div class="title">
-            <h1>Welcome Rldud's Site</h1>
+        <div >
+            <a href="/"><h1 class="main-title">Welcome Rldud's Site</h1></a>
         </div>
         <div>
-            <p><a href="{% url 'index' %}">If you want to go detail site, Click this.</a></p>
+            {% block content %}
+            {% endblock %}
         </div>
     </body>
 </html>

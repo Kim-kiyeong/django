@@ -1,13 +1,15 @@
-*{
-    font-family: 'serif';
-    padding-left : 15px;
-    padding-top: 5px;
+.main-title{
+    font-family:'Lobster';
+    color:'black';
 }
-.title{
-    font-family: '메이플스토리';
-    color: orange;
+.title {
+    font-family : 'Lobster';
+    color:'orange';
 }
-a{
-    text-decoration: none;
-    color: green;
+.text {
+    font-family : 'serif';
+    color:'green';
+}
+.text-link{
+    text-decoration:'none';
 }
