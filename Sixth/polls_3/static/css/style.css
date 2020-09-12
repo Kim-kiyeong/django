@@ -1,0 +1,13 @@
+*{
+    font-family: 'serif';
+    padding-left : 15px;
+    padding-top: 5px;
+}
+.title{
+    font-family: '메이플스토리';
+    color: orange;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
